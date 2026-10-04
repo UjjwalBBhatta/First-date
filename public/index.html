@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>First Date Quest — Level 1: Go Pick Her Up</title>
+    <meta name="description" content="A cute pixel platformer about our first date in Kathmandu." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💖</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main id="stage">
+      <canvas id="game" aria-label="First Date Quest game"></canvas>
+    </main>
+
+    <div id="touch" aria-hidden="true">
+      <div class="pad">
+        <button data-key="left">◀</button>
+        <button data-key="right">▶</button>
+      </div>
+      <div class="pad">
+        <button data-key="attack" class="small">⚔</button>
+        <button data-key="dash" class="small">💨</button>
+        <button data-key="jump">⤒</button>
+      </div>
+    </div>
+
+    <p id="help">← → move · SPACE jump · SHIFT dash · F attack · ENTER talk/continue · I inventory · M mute</p>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
